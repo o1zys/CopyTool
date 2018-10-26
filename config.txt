@@ -1,0 +1,98 @@
+﻿#!/usr/bin/env python
+# coding=utf-8
+[DEFAULT]
+# 项目组名
+team = wgame
+# 项目名
+project = warpath
+
+[file_row]
+# csv表字段名所在的行(从0开始)
+field_row = 1
+# csv表key所在的行(从0开始)
+key_row = 2
+# csv表key所在的行(从0开始)
+type_row = 3
+# csv表有内容的起始行(从0开始)
+content_row = 4
+# Localization.csv表有内容的起始行(从0开始)
+index_content_row = 4
+# TransTable 有内容的起始行(从0开始)
+trans_content_row = 4
+
+[path]
+# csv文件夹相对路径
+csv_dir = test/Csv
+# 索引表相对路径
+index_file = test/Localization.csv
+# 翻译表相对路径
+#trans_file = TransTable_$project.xlsx
+trans_file = test/test.xlsx
+# 外包所需Task文件路径
+task_file = test/TransTable_$project_$version.xlsx
+# Glossary文件路径
+glossary_file = test/Glossary_$project.xlsx
+file_a = A/TranslationTable.xlsx
+file_b = B/TranslationTable.xlsx
+# 导出文件相对路径
+output_file = test
+
+[trans_col]
+# TransTable ID 所在列
+col_id = 0
+# TransTable SharedID 所在列
+col_sid = 1
+# TransTable NumberID 所在列
+col_nid = 2
+# TransTable Ignore 所在列
+col_ignore = 3
+# TransTable History 所在列
+col_hist = 4
+# TransTable Designer 所在列
+col_designer = 5
+# TransTable System 所在列
+col_sys = 6
+# TransTable Feature 所在列
+col_feature = 7
+# TransTable Term 所在列
+col_term = 8
+# TransTable Description 所在列
+col_desc = 9
+# TransTable Instruction 所在列
+col_instruction = 10
+# TransTable LangKey 所在列
+col_langkey = 11
+
+[index_col]
+# Localization.csv csv_name
+index_csv_name = 0
+# Localization.csv csv_column
+index_csv_col = 1
+# Localization.csv Designer
+index_designer = 2
+# Localization.csv System
+index_sys = 3
+# Localization.csv Feature
+index_feature = 4
+# Localization.csv Term
+index_term = 5
+
+[constant_text_col]
+# ConstantText.csv
+constant_text_designer = 2
+constant_text_sys = 3
+constant_text_feature = 4
+constant_text_term = 5
+
+[color]
+# 新增词条填充颜色
+color_add = ff0000
+# 修改词条填充颜色
+color_modify = ffff00
+# EN列有内容填充颜色
+color_fill = 33cc33
+# CopyTool 标示修改的单元格
+color_copy_modify = 00b0f0
+# CopyTool ID一致但LANGKEY不一致
+color_copy_unique = 00ffff
+
