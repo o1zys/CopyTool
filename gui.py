@@ -28,7 +28,7 @@ except Exception as e:
 v1 = IntVar()
 v2 = IntVar()
 
-Checkbutton(root, text='Match ID (use with caution)', variable=v1, onvalue=1, offvalue=0).grid(row=0, column=0, sticky=SW)
+Checkbutton(root, text='Match SheetID (use with caution)', variable=v1, onvalue=1, offvalue=0).grid(row=0, column=0, sticky=SW)
 Checkbutton(root, text='Ignore comments', variable=v2, onvalue=1, offvalue=0).grid(row=1, column=0, sticky=SW)
 
 
