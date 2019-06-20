@@ -1,1 +1,1 @@
-Pyinstaller -F -i icon.ico gui.py
+venv\Scripts\pyinstaller.exe -F -i icon.ico gui.py
